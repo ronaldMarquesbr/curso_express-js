@@ -8,7 +8,7 @@ const path = require('path');
 
 const app = express();
 
-app.use('/meusite', express.static(path.join(__dirname, 'client')));
+app.use('/meusite',express.static(path.join(__dirname, 'client')));
 
 app.get('/', (req, res) => {
 
